@@ -1,12 +1,40 @@
-# React + Vite
+## Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, clean, and professional Todo App built with React.
+This app allows users to add tasks with an optional due date and shows friendly messages to guide the user.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1.Friendly welcome message: "Hey! Enjoy your day " on page load.
 
-## Expanding the ESLint configuration
+2.Add tasks with optional due date.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3.Validation: Prevents empty tasks and shows a red error message: "Please add item".
+
+4.Tasks are displayed in a clean, professional list.
+
+5.Responsive and center-bottom layout for input and button.
+
+## Clone the repository:
+
+git clone https://github.com/aakriti-gupta99/Todo-app.git
+
+## Usage
+
+1.Enter your task in the input box.
+
+2.Optionally, choose a due date.
+
+3.Click Add to save your task.
+
+4.If the input is empty, a red error message will appear: "Please add item".
+
+5.All tasks are displayed in a clean, professional list.
+
+## Technologies Used
+
+React
+
+CSS
+
+JavaScript

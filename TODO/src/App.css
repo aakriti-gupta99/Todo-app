@@ -12,10 +12,9 @@ input{
   font-size: 20px;
  
 }
-
 .container{
-  display: inline;
-  align-items: center;
+  display: block;
+  flex-direction: column;
 
 }
 .add-row{
@@ -26,9 +25,11 @@ input{
   
  
 }
-.btndanger{
-   min-width: 85px;
- margin-left: 35px;
-   min-height:45.8px;
-   margin-top: -28px;
+
+.error {
+  color: red;
+  font-weight: 600;
+  margin-left: -290px;
+  margin-bottom: 28px;
+ font-size: 25px;
 }

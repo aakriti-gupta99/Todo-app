@@ -1,24 +1,23 @@
 import React from "react";
+import { RiDeleteBin5Line } from "react-icons/ri";
+import style from "./TodoItem.module.css";
 
 function TodoItem({ todoName, todoDate, onDeleteClick }) {
   return (
-    <div>
-      <div className="container">
-        <div className="row kG-row">
-          <div className="col-4">{todoName}</div>
-          <div className="col-4">{todoDate}</div>
-          <div className="col-4">
-            <button
-              type="button"
-              className="btn btn-danger btndanger"
-              onClick={() => onDeleteClick(todoName)}
-            >
-              Delete
-            </button>
-          </div>
-        </div>
+    <div className={style.todoItem}>
+      <div>
+        <div className={style.todoText}>{todoName}</div>
+        <div className={style.todoDate}>{todoDate}</div>
       </div>
+      <button
+        type="button"
+        className={style.btnContainer}
+        onClick={() => onDeleteClick(todoName)}
+      >
+        <RiDeleteBin5Line />
+      </button>
     </div>
   );
 }
+
 export default TodoItem;
